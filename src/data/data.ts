@@ -93,7 +93,11 @@ export const skillsData = [
 
 export const navbarData = [
   { href: "/", icon: HomeIcon, label: "Home" },
-  { href: "https://leetcode.com/u/manavsingh758/", icon: NotebookIcon, label: "Leetcode" },
+  {
+    href: "https://leetcode.com/u/manavsingh758/",
+    icon: NotebookIcon,
+    label: "Leetcode",
+  },
 ] as const;
 
 export const contactData = {
@@ -127,16 +131,17 @@ export const experiencesData = [
     href: "https://searchashiyana.com/",
     location: "Remote",
     title: "Software Engineer",
-    logoUrl: "https://searchashiyana.com/wp-content/uploads/2025/01/cropped-Search-Aashiana-Logo-Verticle-03-3.png",
+    logoUrl:
+      "https://searchashiyana.com/wp-content/uploads/2025/01/cropped-Search-Aashiana-Logo-Verticle-03-3.png",
     start: "Jul 2025",
     end: "Jun 2025",
     description: [
       "Worked on a content management system (CMS) focused on efficient data storage, retrieval, and organization for structured and unstructured content.",
       "Contributed to user and role management, enabling administrators to control access, permissions, and content visibility.",
       "Implemented features to track, update, and validate data entries, improving data accuracy and consistency across the system",
-      "Gained hands-on experience in real-world data management workflows, version control, and collaborative development practices."
+      "Gained hands-on experience in real-world data management workflows, version control, and collaborative development practices.",
     ],
-  }
+  },
 ] as const;
 
 export const educationData = [
@@ -151,9 +156,9 @@ export const educationData = [
       "CGPA 7.68/10",
       "Major in Computer Science",
       "Minor in Full Stack Web Development",
-      "Minor in UI/UX"
+      "Minor in UI/UX",
     ],
-  }
+  },
 ] as const;
 
 export const projectsData = [
@@ -175,7 +180,7 @@ export const projectsData = [
     technologies: [
       { name: "NextJS", icon: "logos:nextjs-icon" },
       { name: "React", icon: "logos:react" },
-      {name:  "NodeJs", icon:  "logos:nodejs-icon"},
+      { name: "NodeJs", icon: "logos:nodejs-icon" },
       { name: "TypeScript", icon: "logos:typescript-icon" },
       { name: "WebSocket", icon: "logos:websocket" },
       { name: "Tailwind", icon: "logos:tailwindcss-icon" },
@@ -213,7 +218,7 @@ based on those sources, turning scattered information into structured knowledge.
       { name: "React", icon: "logos:react" },
       { name: "Typescript", icon: "logos:typescript-icon" },
       { name: "NodeJs", icon: "logos:nextjs-icon" },
-      { name: "Tailwind", icon: "logos:tailwindcss-icon"},
+      { name: "Tailwind", icon: "logos:tailwindcss-icon" },
       { name: "Docker", icon: "logos:docker" },
       { name: "Redis", icon: "logos:redis" },
       { name: "LangChain", icon: "lucide:link" },
@@ -253,7 +258,6 @@ based on those sources, turning scattered information into structured knowledge.
       { name: "Express.js", icon: "logos:express" },
       { name: "MongoDB", icon: "logos:aws-dynamodb" },
       { name: "Finhub API", icon: "simple-icons:googlegemini" },
-      
     ],
     links: [
       {
@@ -317,7 +321,7 @@ based on those sources, turning scattered information into structured knowledge.
       "AI Responses powered by Google Gemini",
       "Background Job Handling using BullMQ",
       "Queue-based Task Execution and Dockerized Architecture",
-      "High-Speed Data Store with Valkey"
+      "High-Speed Data Store with Valkey",
     ],
     technologies: [
       { name: "React", icon: "logos:react" },
@@ -338,5 +342,4 @@ based on those sources, turning scattered information into structured knowledge.
     images: ["/quick.png"],
     video: "",
   },
-  
 ] as const;
