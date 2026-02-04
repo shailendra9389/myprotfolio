@@ -20,8 +20,8 @@ export function Contact({ delay = 0 }: ContactProps) {
             </h2>
             <p className="text-muted-foreground max-w-lg mx-auto">
               Please contact me directly at{" "}
-              <a className="underline" href="mailto:manavsingh0607@gmail.com">
-                manavsingh0607@gmail.com
+              <a className="underline" href="mailto:sps976130@gmail.com">
+                sps976130@gmail.com
               </a>{" "}
               or through this form.
             </p>

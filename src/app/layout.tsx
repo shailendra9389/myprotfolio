@@ -19,7 +19,7 @@ const fontSans = Ubuntu({
 export const metadata: Metadata = {
   metadataBase: new URL(personalData.url),
   title: {
-    default: "Manav Singh | Software Engineer",
+    default: "Shailendra Pratap Singh | Software Engineer",
     template: `%s | ${personalData.name}`,
   },
   description: personalData.description,
@@ -45,6 +45,9 @@ export const metadata: Metadata = {
   twitter: {
     title: `${personalData.name}`,
     card: "summary_large_image",
+  },
+  icons: {
+    icon: "/myimage.png",
   },
   verification: {
     google: "",
