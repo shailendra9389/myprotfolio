@@ -291,4 +291,42 @@ export const projectsData = [
     images: ["/edu.png"],
     video: "",
   },
+   {
+    title: "Marble Game",
+href: "https://github.com/shailendra9389/marble-game.git",
+dates: "2025",
+active: true,
+description:
+  "A physics-based 3D marble game built with Three.js and React, featuring realistic ball movement, gravity, collisions, and interactive obstacles. The game delivers smooth animations, immersive visuals, and engaging gameplay directly in the browser.",
+detailedDescription: `Developed a browser-based 3D marble game using Three.js and React Three Fiber, simulating realistic physics such as gravity, friction, and collision detection. Implemented interactive levels with dynamic obstacles, responsive controls, and optimized rendering for smooth performance across devices.`,
+keyFeatures: [
+  "Realistic marble physics using a physics engine, including gravity, collisions, and momentum.",
+  "Interactive 3D environment with obstacles, ramps, and goal mechanics.",
+  "Smooth animations and optimized rendering using React Three Fiber.",
+  "Responsive controls and camera movement for an immersive gameplay experience.",
+  "Deployed as a lightweight, client-side game accessible directly in the browser.",
+],
+technologies: [
+  { name: "Three.js", icon: "logos:threejs" },
+  { name: "React", icon: "logos:react" },
+  { name: "React Three Fiber", icon: "simple-icons:reactthreefiber" },
+  { name: "Rapier Physics", icon: "simple-icons:physics" },
+  { name: "Vite", icon: "logos:vitejs" },
+],
+links: [
+  {
+    type: "Github",
+    href: "https://github.com/shailendra9389/marble-game.git",
+    icon: "github",
+  },
+  {
+    type: "Live Demo",
+    href: "https://marble-game-1.vercel.app/",
+    icon: "simple-icons:vercel",
+  },
+],
+  image: "/game.png",
+    images: ["/game.png"],
+    
+},
 ] as const;
