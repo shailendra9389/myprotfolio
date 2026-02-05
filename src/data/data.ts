@@ -28,7 +28,6 @@ export const skillsData = [
       { name: "MySQL", icon: "logos:mysql-icon" },
       { name: "MongoDB", icon: "logos:aws-dynamodb" },
       { name: "REST APIs", icon: "lucide:cloud-cog" },
-      
       { name: "Vector Databases", icon: "lucide:database-zap" },
     ],
   },
@@ -73,17 +72,11 @@ export const skillsData = [
     category: "Practices",
     skills: [
       { name: "Database design", icon: "material-symbols:database" },
-      { name: "Event‑driven architecture", icon: "lucide:share-2" },
+      { name: "Event-driven architecture", icon: "lucide:share-2" },
       { name: "Agile", icon: "lucide:repeat" },
       { name: "Scrum", icon: "material-symbols:group" },
-      {
-        name: "OOP",
-        icon: "material-symbols:code",
-      },
-      {
-        name: "TDD",
-        icon: "lucide:flask-conical",
-      },
+      { name: "OOP", icon: "material-symbols:code" },
+      { name: "TDD", icon: "lucide:flask-conical" },
     ],
   },
   {
@@ -97,8 +90,7 @@ export const skillsData = [
       { name: "Sumo Logic", icon: "material-symbols:analytics" },
     ],
   },
- ] as const;
-
+] as const;
 
 export const navbarData = [
   { href: "/", icon: HomeIcon, label: "Home" },
@@ -140,8 +132,7 @@ export const experiencesData = [
     href: "https://Intellimeta.com/",
     location: "Remote",
     title: "Software Engineer",
-    logoUrl:
-      "/intellimeta.png",
+    logoUrl: "/intellimeta.png",
     start: "July 2025",
     end: "Jan 2026",
     description: [
@@ -300,5 +291,4 @@ export const projectsData = [
     images: ["/edu.png"],
     video: "",
   },
- 
 ] as const;
