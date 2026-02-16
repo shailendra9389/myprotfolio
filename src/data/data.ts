@@ -152,7 +152,7 @@ export const educationData = [
     start: "Aug 2023",
     end: "Present",
     description: [
-      "CGPA 8.52/10",
+      "CGPA 8.53/10",
       "Major in Computer Science",
       "Minor in Full Stack Web Development,Machine Learning",
       "Minor in UI/UX",
@@ -191,7 +191,7 @@ export const projectsData = [
       },
       {
         type: "Demo",
-        href: "https://www.linkedin.com/posts/sps54kh4_ai-formbuilder-reactjs-activity-7297236094721372160-aUfE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEZz6swB2NB4Md7zsL9MzUb1FVl10JQtLx0",
+        href: "https://formify-ai-8fsa.vercel.app/",
         icon: "globe",
       },
     ],
@@ -226,6 +226,11 @@ export const projectsData = [
         type: "Github",
         href: "https://github.com/shailendra9389/carrer-coach",
         icon: "github",
+      },
+       {
+        type: "Live Demo",
+        href: "https://ai-carrier-coach-1.vercel.app/",
+        icon: "simple-icons:vercel",
       },
     ],
     image: "/carrer.png",
@@ -286,7 +291,18 @@ export const projectsData = [
       { name: "Tailwind", icon: "logos:tailwindcss-icon" },
       { name: "Google Gemini API", icon: "simple-icons:googlegemini" },
     ],
-    links: [],
+    links: [
+      {
+        type: "Github",
+        href: "https://github.com/shailendra9389/EduStack",
+        icon: "github",
+      },
+      {
+        type: "Live Demo",
+        href: "https://edustackk.vercel.app/",
+        icon: "simple-icons:vercel",
+      },
+    ],
     image: "/edu.png",
     images: ["/edu.png"],
     video: "",
