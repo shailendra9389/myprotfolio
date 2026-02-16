@@ -227,7 +227,7 @@ export const projectsData = [
         href: "https://github.com/shailendra9389/carrer-coach",
         icon: "github",
       },
-       {
+      {
         type: "Live Demo",
         href: "https://ai-carrier-coach-1.vercel.app/",
         icon: "simple-icons:vercel",
